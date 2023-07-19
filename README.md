@@ -6,7 +6,9 @@
 ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![Flask](https://camo.githubusercontent.com/9dba3de3e1f156e64977675a58069488ee4550ad887bbd56283ec3fa1dc45c57/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d666c61736b2d3030303030303f6c6f676f3d466c61736b267374796c653d666f722d7468652d6261646765266c6f676f436f6c6f723d7768697465)
+<!-- TODO
 ![Django](https://camo.githubusercontent.com/5ebc8bbbe9179d0121ed4e660ca60fd4e8e90e4d6ff1a44ca81ab8e6d915ca96/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d446a616e676f2d3039324532303f6c6f676f3d446a616e676f267374796c653d666f722d7468652d6261646765266c6f676f436f6c6f723d7768697465)
+-->
 
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
