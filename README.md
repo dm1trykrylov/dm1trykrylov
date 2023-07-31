@@ -1,5 +1,7 @@
 ### Hi there, I'm Dima 👋
 
+<a href="https://github.com/dm1trykrylov/dm1trykrylov/blob/main/cv.pdf"><img src="https://img.shields.io/badge/Download%20CV-%2523000011.svg?style=for-the-badge&color=%23eb4034&logo=Adobe%20Acrobat%20Reader&logoColor=white&link=https%3A%2F%2Fgithub.com%2Fdown-shift%2Fdown-shift%2Fblob%2Fmain%2FDaniel_Fedorov_DS.pdf"/></a>
+
 ### :computer: Tech Stack 
 
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
