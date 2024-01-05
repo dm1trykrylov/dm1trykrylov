@@ -25,7 +25,7 @@ jobs:
           path: ${{ env.CV_PDF }}
   create_release:
     needs: build_latex
-    if: ${{ github.event.name == 'pull_request' }}
+    if: ${{ github.event_name == 'pull_request' }}
     runs-on: ubuntu-latest
     steps:
       - name: Create Release
