@@ -7,7 +7,7 @@ on:
     types: [opened, edited]
 env:
   CV_TEX: cv.tex
-  CV_FILE: cv.pdf
+  CV_PDF: cv.pdf
 jobs:
   build_latex:
     runs-on: ubuntu-latest
