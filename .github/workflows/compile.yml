@@ -6,8 +6,8 @@ on:
   pull_request:
     types: [opened, edited]
 env:
-  CV_TEX: "cv.tex"
-  CV_FILE: "cv.pdf"
+  CV_TEX: cv.tex
+  CV_PDF: cv.pdf
 jobs:
   build_latex:
     runs-on: ubuntu-latest
@@ -24,6 +24,8 @@ jobs:
           name: cv
           path: ${{ env.CV_PDF }}
   create_release:
+    needs: build_latex
+    if: ${{ github.event_name == 'pull_request' }}
     runs-on: ubuntu-latest
     steps:
       - name: Create Release
