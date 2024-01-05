@@ -17,6 +17,7 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
+          working_directory: ${{   }}
           root_file: ${{ env.CV_TEX  }}
       - name: Save artifacts
         uses: actions/upload-artifact@v3
@@ -24,6 +25,8 @@ jobs:
           name: cv
           path: ${{ env.CV_PDF }}
   create_release:
+    needs: build-latex
+    if: ${{ github.event.name == 'pull_request' }}
     runs-on: ubuntu-latest
     steps:
       - name: Create Release
