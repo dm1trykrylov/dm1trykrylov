@@ -1,6 +1,8 @@
-### Hi there 👋
+### Hi there, I'm Dmitry 👋
+![Visitor](https://visitor-badge.laobi.icu/badge?page_id=dm1trykrylov.dm1trykrylov)
 
-<a href="https://github.com/dm1trykrylov/dm1trykrylov/blob/main/cv.pdf"><img src="https://img.shields.io/badge/Download%20CV-%2523000011.svg?style=for-the-badge&color=%23eb4034&logo=Adobe%20Acrobat%20Reader&logoColor=white&link=https%3A%2F%2Fgithub.com%2Fdown-shift%2Fdown-shift%2Fblob%2Fmain%2FDaniel_Fedorov_DS.pdf"/></a>
+<a href="https://github.com/dm1trykrylov/dm1trykrylov/releases/download/v1/cv_v1.pdf"><img src="https://img.shields.io/badge/Download%20CV-%2523000011.svg?style=for-the-badge&color=%23eb4034&logo=Adobe%20Acrobat%20Reader&logoColor=white"/></a>
+<a href="https://github.com/dm1trykrylov/dm1trykrylov/releases/download/v1/cv_v1_ru.pdf"><img src="https://img.shields.io/badge/Download%20CV-%2523000011.svg?style=for-the-badge&color=%23eb4034&logo=Adobe%20Acrobat%20Reader&logoColor=white"/></a>
 
 ### :computer: Tech Stack 
 
@@ -20,7 +22,7 @@
 
 ### 👨‍🎓 Education
 <h4>
-Bachelor in Applied Mathematics and CS | MIPT | 2022-2026
+Bachelor in Applied Mathematics and CS at MIPT, 2022-2026
 </h4>
 
   
