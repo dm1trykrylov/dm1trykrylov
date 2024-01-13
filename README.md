@@ -1,8 +1,8 @@
 ### Hi there, I'm Dmitry 👋
-![Visitor](https://visitor-badge.laobi.icu/badge?page_id=dm1trykrylov.dm1trykrylov)
+[![Visitor](https://visitor-badge.laobi.icu/badge?page_id=dm1trykrylov.dm1trykrylov)](https://github.com/dm1trykrylov) [![GitHub followers](https://img.shields.io/github/followers/dm1trykrylov.svg?style=social&label=Follow)](https://github.com/dm1trykrylov?tab=followers)
 
-<a href="https://github.com/dm1trykrylov/dm1trykrylov/releases/download/v1/cv_v1.pdf"><img src="https://img.shields.io/badge/Download%20CV-%2523000011.svg?style=for-the-badge&color=%23eb4034&logo=Adobe%20Acrobat%20Reader&logoColor=white"/></a>
-<a href="https://github.com/dm1trykrylov/dm1trykrylov/releases/download/v1/cv_v1_ru.pdf"><img src="https://img.shields.io/badge/Download%20CV-%2523000011.svg?style=for-the-badge&color=%23eb4034&logo=Adobe%20Acrobat%20Reader&logoColor=white"/></a>
+<a href="https://github.com/dm1trykrylov/dm1trykrylov/releases/download/v1/cv_v1.pdf"><img src="https://img.shields.io/badge/Download%20CV(en)-%2523000011.svg?style=for-the-badge&color=%23eb4034&logo=Adobe%20Acrobat%20Reader&logoColor=white"/></a>
+<a href="https://github.com/dm1trykrylov/dm1trykrylov/releases/download/v1/cv_v1_ru.pdf"><img src="https://img.shields.io/badge/Download%20CV(ru)-%2523000011.svg?style=for-the-badge&color=%23eb4000&logo=Adobe%20Acrobat%20Reader&logoColor=white"/></a>
 
 ### :computer: Tech Stack 
 
