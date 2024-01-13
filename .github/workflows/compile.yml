@@ -18,12 +18,12 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: |
-            - ${{ env.CV_TEX  }}
-            - ${{ env.CV_TEX_RU  }}
+            ${{ env.CV_TEX  }}
+            ${{ env.CV_TEX_RU  }}
       - name: Save artifacts
         uses: actions/upload-artifact@v3
         with:
           name: cv
           path: | 
-            - ${{ env.CV_PDF }}
-            - ${{ env.CV_PDF_RU }}
+            ${{ env.CV_PDF }}
+            ${{ env.CV_PDF_RU }}
