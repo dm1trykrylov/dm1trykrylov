@@ -47,59 +47,7 @@
 %----------------------------------------------------------------------------------------
 %	PACKAGES
 %----------------------------------------------------------------------------------------
-\usepackage{url}
-\usepackage{parskip} 	
-\usepackage[utf8]{inputenc} % allow utf-8 input
-\usepackage[T2A]{fontenc}    % use 8-bit T1 fonts
-\usepackage[english, russian]{babel}
-
-%other packages for formatting
-\RequirePackage{color}
-\RequirePackage{graphicx}
-\usepackage[usenames,dvipsnames]{xcolor}
-\usepackage[scale=0.9]{geometry}
-
-%tabularx environment
-\usepackage{tabularx}
-
-%for lists within experience section
-\usepackage{enumitem}
-
-% centered version of 'X' col. type
-\newcolumntype{C}{>{\centering\arraybackslash}X} 
-
-%to prevent spillover of tabular into next pages
-\usepackage{supertabular}
-\usepackage{tabularx}
-\newlength{\fullcollw}
-\setlength{\fullcollw}{0.47\textwidth}
-
-%custom \section
-\usepackage{titlesec}				
-\usepackage{multicol}
-\usepackage{multirow}
-
-%CV Sections inspired by: 
-%http://stefano.italians.nl/archives/26
-\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{6pt}{6pt}
-
-%for publications
-\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
-
-%Setup hyperref package, and colours for links
-\usepackage[unicode, draft=false]{hyperref}
-\definecolor{linkcolour}{rgb}{0,0.2,0.6}
-\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
-\addbibresource{citations.bib}
-\setlength\bibitemsep{1em}
-
-%for social icons
-\usepackage{fontawesome5}
-\usepackage{csquotes}
-
-%debug page outer frames
-%\usepackage{showframe}
+\usepackage{style}
 
 %----------------------------------------------------------------------------------------
 %	BEGIN DOCUMENT
@@ -119,14 +67,7 @@
 % \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
 % \end{tabularx}
 
-\begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Дмитрий Крылов} \\[7.5pt]
-\href{https://github.com/dm1trykrylov}{\raisebox{-0.05\height}\faGithub\ dm1trykrylov} \ $|$ \ 
-%\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ dm1trykrylov} \ $|$ \ 
-\href{https://t.me/dm1trykrylov}{\raisebox{-0.05\height}\faGlobe \ tg} \ $|$ \ 
-\href{mailto:krylov.de@phystech.edu}{\raisebox{-0.05\height}\faEnvelope \ mail} \ $|$ \ 
-\href{tel:+79225131245}{\raisebox{-0.05\height}\faMobile \ +7.922.513.1245} \\
-\end{tabularx}
+\import{./sections/}{00-title_ru.tex}
 
 %----------------------------------------------------------------------------------------
 % EXPERIENCE SECTIONS
@@ -135,70 +76,25 @@
 %Interests/ Keywords/ Summary
 \section{Обо мне}
 
-Я учусь на 2 курсе Физтех-школы Прикладной Математики и Информатики МФТИ.\\ Интересуюсь программированием, в основном бэкенд-разработкой, люблю решать алгоритмические задачи.
-Мне нравится разбираться в том, как работают сервисы внутри. Ещё я интересуюсь экономикой и анализом данных.
+\import{./sections/}{01-summary_ru.tex}
+
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 \section{Образование}
-\begin{tabularx}{\linewidth}{@{}l X@{}}	
-%2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
-
-\textbf{2022 - 2026} & \textbf{Московский Физико-Технический Институт}, ФПМИ, Бакалавриат. Направление: Прикладные математика и физика. 
-Направленность (профиль): Математическая физика, компьютерные технологии и математическое моделирование в экономике.
-
-\normalsize Средний балл за 1 курс: 4.8/5 \\ 
-
-\end{tabularx}
-
+\import{./sections/}{02-education_ru.tex}
 
 %----------------------------------------------------------------------------------------
 %	COMPETITIONS
 %----------------------------------------------------------------------------------------
 \section{Соревнования}
 
-
-\begin{tabularx}{\linewidth}{ @{}l r@{}  }
-\href{https://365.finopolis.ru/finodays/}{\textbf{Хакатона FINOdays}} &  \hfill \textbf{Aug 2023}\\[3.75pt]
-\multicolumn{2}{@{}X@{}}{
-    Вместе с командой участвовал в треке ИИ и ML, кейс Оценка стоимости залогового имущества от Газпромбанка.
-Результат: 2 место внутри кейса и 5 на треке из 20 команд.
-Мой вклад: сделал сайт на Flask с интерактивными формами и возможностью загрузки табличных данных. \href{https://github.com/SpectrApp/Spectr_App}{Репозиторий проекта}.
-}  \\
-\end{tabularx}
+\import{./sections/}{03-competiotions_ru.tex}
 
 %Projects
 \section{Проекты}
 
-\begin{tabularx}{\linewidth}{ @{}l @{}l r@{} }
-    \href{https://github.com/dm1trykrylov/airlines-cutomer-satisfaction}{\textbf{Airlines Customer Satisfaction}} &  $\;\; \mid$ \textit{Python, Matplotlib, Seaborn, Catboost, Streamlit} & \hfill \textbf{Jun 2023}\\[3.75pt]
-\multicolumn{2}{@{}X@{}}{
-    \begin{itemize}
-        \item Провёл разведочный анализ.
-        \item Создал \href{https://airlines-customer-satisfaction.streamlit.app/}{сервис} по предсказанию удовлетворённости клиента авиакомпании.
-        \item Проект представлен на интенсиве \enquote{Разработка ML-сервиса: от идеи к прототипу} от ФКН ВШЭ. 
-        \href{https://drive.google.com/file/d/12kDpbseGoJDyz6SbeZbJjDec-tK012zT/view?usp=sharing}{Сертификат участника}
-    \end{itemize}}  \\
-    
-\end{tabularx}
-
-\begin{tabularx}{\linewidth}{ @{}l @{}l r@{} }
-    \href{https://github.com/dm1trykrylov/super-blog}{\textbf{Микроблог}} &  $\;\; \mid$ \textit{Python, Flask, Bootstrap, SQLAlchemy, SQLite} & \hfill \textbf{Dec 2022}\\[3.75pt]
-\multicolumn{2}{@{}X@{}}{
-    \begin{itemize}
-        \item Разработал веб-приложение для блога с регистрацией и авторизацией пользователей, а также новостной лентой.
-        \item Задеплоил на \href{https://citadel.pythonanuwhere.com}{pythonanywhere}.
-    \end{itemize}}  \\
-\end{tabularx}
-
-\begin{tabularx}{\linewidth}{ @{}l @{}l r@{} }
-    \href{https://github.com/dm1trykrylov/Sadovod}{\textbf{Приложение Sadovod}} &  $\;\; \mid$ \textit{C\#, Xamarin} & \hfill \textbf{Jul 2020}\\[3.75pt]
-\multicolumn{2}{@{}X@{}}{
-    \begin{itemize}
-        \item Разработал дизайн приложения.
-        \item Реализовал обращение к API OpenWeatherMap для получения данных о погоде.
-    \end{itemize}}  \\
-\end{tabularx}
+\import{./sections/}{03-experience_ru.tex}
 
 %----------------------------------------------------------------------------------------
 %	PUBLICATIONS
@@ -213,26 +109,13 @@
 %	SKILLS
 %----------------------------------------------------------------------------------------
 \section{Навыки}
-\begin{tabularx}{\linewidth}{@{}l X@{}}
-\textbf{Languages:} & \normalsize{C++, Python, C\#, JavaScript} \\
-\textbf{Frameworks:} &  \normalsize{Flask, Xamarin, Node.js}\\
-\textbf{Developer Tools:}  &  \normalsize{Git, Google Cloud Platform, VS Code, Visual Studio}\\  
-\textbf{Libraries:}  &  \normalsize{pandas, numPy, Matplotlib, scikit-learn}\\  
-%\textbf{Other:} & \normalsize{ Russian (native), English (Upper-Intermediate)} \\
-\end{tabularx}
+
+\import{./sections/}{04-skills_ru.tex}
 
 %Certification
 \section{Курсы и Сертификаты}
 
-
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-
-\href{https://www.freecodecamp.org/certification/dekrylov/back-end-development-and-apis}{\textbf{Back End Development and APIs}} & \hfill \textbf{Jun 2022} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{
-    Certificate issued by freecodecamp.org after successfull completion of Back End Development and APIs course. Tech Stack: JavaScript, Node.js, Express.js.
-}  \\
-\end{tabularx}
-
+\import{./sections/}{05-certification_ru.tex}
 
 \vfill
 \center{\footnotesize Last updated: \today}
