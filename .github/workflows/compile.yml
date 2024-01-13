@@ -6,8 +6,8 @@ on:
 env:
   CV_TEX: cv.tex
   CV_PDF: cv.pdf
-  CV_TEX_RU: cv.tex
-  CV_PDF_RU: cv.pdf
+  CV_TEX_RU: cv_ru.tex
+  CV_PDF_RU: cv_ru.pdf
 jobs:
   build_latex:
     runs-on: ubuntu-latest
