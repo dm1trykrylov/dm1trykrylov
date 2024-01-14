@@ -5,7 +5,7 @@
 I'm Dmitry Krylov!
 - <i> Currently </i> BS Applied Mathematics and CS student at MIPT, Moscow. 
 
-I possess a foundational understanding of Economics and maintain a keen interest in delving deeper into the subject.
+I also possess a foundational understanding of Economics and maintain a keen interest in delving deeper into the subject.
 
 <!--
 <h2>💻 I'm Currently workng on</h2>
