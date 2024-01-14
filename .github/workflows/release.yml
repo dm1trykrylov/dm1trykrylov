@@ -1,7 +1,7 @@
 name: Create release
 on:
   pull_request:
-    types: [opened, edited]
+    types: [closed]
 env:
   CV_TEX: cv.tex
   CV_PDF: cv.pdf
