@@ -47,52 +47,8 @@
 %----------------------------------------------------------------------------------------
 %	PACKAGES
 %----------------------------------------------------------------------------------------
-\usepackage{url}
-\usepackage{parskip} 	
 
-%other packages for formatting
-\RequirePackage{color}
-\RequirePackage{graphicx}
-\usepackage[usenames,dvipsnames]{xcolor}
-\usepackage[scale=0.9]{geometry}
-
-%tabularx environment
-\usepackage{tabularx}
-
-%for lists within experience section
-\usepackage{enumitem}
-
-% centered version of 'X' col. type
-\newcolumntype{C}{>{\centering\arraybackslash}X} 
-
-%to prevent spillover of tabular into next pages
-\usepackage{supertabular}
-\usepackage{tabularx}
-\newlength{\fullcollw}
-\setlength{\fullcollw}{0.47\textwidth}
-
-%custom \section
-\usepackage{titlesec}				
-\usepackage{multicol}
-\usepackage{multirow}
-
-%CV Sections inspired by: 
-%http://stefano.italians.nl/archives/26
-\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{10pt}{10pt}
-
-%for publications
-\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
-
-%Setup hyperref package, and colours for links
-\usepackage[unicode, draft=false]{hyperref}
-\definecolor{linkcolour}{rgb}{0,0.2,0.6}
-\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
-%\addbibresource{citations.bib}
-\setlength\bibitemsep{1em}
-
-%for social icons
-\usepackage{fontawesome5}
+\usepackage{style}
 
 %debug page outer frames
 %\usepackage{showframe}
@@ -115,14 +71,7 @@
 % \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
 % \end{tabularx}
 
-\begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Dmitry Krylov} \\[7.5pt]
-\href{https://github.com/dm1trykrylov}{\raisebox{-0.05\height}\faGithub\ dm1trykrylov} \ $|$ \ 
-%\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ dm1trykrylov} \ $|$ \ 
-\href{https://t.me/dm1trykrylov}{\raisebox{-0.05\height}\faGlobe \ tg} \ $|$ \ 
-\href{mailto:krylov.de@phystech.edu}{\raisebox{-0.05\height}\faEnvelope \ mail} \ $|$ \ 
-\href{tel:+79225131245}{\raisebox{-0.05\height}\faMobile \ +7.922.513.1245} \\
-\end{tabularx}
+\import{./sections/}{00-title.tex}
 
 %----------------------------------------------------------------------------------------
 % EXPERIENCE SECTIONS
@@ -130,46 +79,19 @@
 
 %Interests/ Keywords/ Summary
 \section{Summary}
-A Computer Science undergraduate with a passion for backend development and data analysis.
-Through my coursework at MIPT, I have developed expertise in subjects such as algorithms and data structures and linear algebra. 
-I have successfully year course in C++ and semester course in Python.
-I am excited to expand my abilities as part of your team.
+
+\import{./sections/}{01-summary.tex}
+
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 \section{Education}
-\begin{tabularx}{\linewidth}{@{}l X@{}}	
-%2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
-
-\textbf{2022 - 2026} & Bachelor's Degree at \textbf{Moscow Institute of Physics and Technology} in Applied Mathematics and Computer Science   \normalsize (GPA: 4.8/5) \\ 
-
-\end{tabularx}
+\import{./sections/}{02-education.tex}
 
 %Projects
 \section{Projects}
 
-\begin{tabularx}{\linewidth}{ @{}l @{}l r@{} }
-    \href{https://github.com/dm1trykrylov/airlines-cutomer-satisfaction}{\textbf{Airlines Customer Satisfaction}} &  $\;\; \mid$ \textit{Python, Matplotlib, Seaborn, Catboost, Streamlit} & \hfill \textbf{Jun 2023}\\[3.75pt]
-\multicolumn{2}{@{}X@{}}{
-    \begin{itemize}
-        \item Performed Exploratory Data Analysis on \href{https://raw.githubusercontent.com/dm1trykrylov/Airlines-Customer-satisfaction/main/datasets/clients.csv}{dataset}
-        \item Trained 3 classification models and chose best one (Catboost)
-        \item Created a service to measure and anticipate Airlines Customer Satisfactionservice and deployed it to Streamlit (\href{https://airlines-customer-satisfaction.streamlit.app/}{link})
-        \item The service was developed during a bootcamp by The Faculty of Computer Science at HSE Univercity. 
-        \href{https://drive.google.com/file/d/12kDpbseGoJDyz6SbeZbJjDec-tK012zT/view?usp=sharing}{Certificate of Participation}
-    \end{itemize}}  \\
-    
-\end{tabularx}
-
-\begin{tabularx}{\linewidth}{ @{}l @{}l r@{} }
-    \href{https://github.com/dm1trykrylov/super-blog}{\textbf{Personal blog}} &  $\;\; \mid$ \textit{Python, Flask, Bootstrap, SQLAlchemy, SQLite} & \hfill \textbf{Dec 2022}\\[3.75pt]
-\multicolumn{2}{@{}X@{}}{
-    \begin{itemize}
-        \item Developed microblog application with login, home and explore pages
-        \item Improved UI with Bootstrap. Connected and set up database using SQLAlchemy and SQLite
-        \item Deployed blog to \href{https://citadel.pythonanuwhere.com}{pythonanywhere}
-    \end{itemize}}  \\
-\end{tabularx}
+\import{./sections/}{03-experience.tex}
 
 %----------------------------------------------------------------------------------------
 %	PUBLICATIONS
@@ -184,24 +106,12 @@ I am excited to expand my abilities as part of your team.
 %	SKILLS
 %----------------------------------------------------------------------------------------
 \section{Skills}
-\begin{tabularx}{\linewidth}{@{}l X@{}}
-\textbf{Languages:} & \normalsize{C++, Python, JavaScript} \\
-\textbf{Frameworks:} &  \normalsize{Node.js, Flask}\\
-\textbf{Developer Tools:}  &  \normalsize{Git, Google Cloud Platform, VS Code, Visual Studio, IntelliJ}\\  
-\textbf{Libraries:}  &  \normalsize{pandas, numPy, Matplotlib, scikit-learn}\\  
-\textbf{Other:} & \normalsize{ Russian (native), English (Upper-Intermediate)} \\
-\end{tabularx}
+\import{./sections/}{04-skills.tex}
 
 %Certification
 \section{Certification}
 
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\href{https://www.freecodecamp.org/certification/dekrylov/back-end-development-and-apis}{\textbf{Back End Development and APIs}} & \hfill \textbf{Jun 2022} \\[3.75pt]
-\href{https://www.freecodecamp.org/certification/dekrylov/back-end-development-and-apis}{\textbf{Back End Development and APIs}} & \hfill \textbf{Jun 2022} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{
-    Certificate issued by freecodecamp.org after successfull completion of Back End Development and APIs course. Tech Stack: JavaScript, Node.js, Express.js.
-}  \\
-\end{tabularx}
+\import{./sections/}{05-certification.tex}
 
 \vfill
 \center{\footnotesize Last updated: \today}
