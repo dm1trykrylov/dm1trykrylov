@@ -1,7 +1,7 @@
 name: Create release
 on:
   pull_request:
-    types: [opened, edited]
+    types: [closed]
 env:
   CV_TEX: cv.tex
   CV_PDF: cv.pdf
@@ -37,7 +37,7 @@ jobs:
           draft: false
           prerelease: false
       - name: Upload Release Asset
-        id: upload-release-asset 
+        id: upload-release-asset
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -47,7 +47,7 @@ jobs:
           asset_path: ${{ env.CV_PDF }}
           asset_content_type: application/pdf
       - name: Upload Release Asset (ru)
-        id: upload-release-asset 
+        id: upload-release-asset-ru
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
