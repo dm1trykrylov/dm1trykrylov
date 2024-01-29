@@ -32,8 +32,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: v${{ github.run_number }}
-          release_name: Automated build v${{ github.run_number }}
+          tag_name: v1.${{ github.run_number }}
+          release_name: Automated build v1.${{ github.run_number }}
           draft: false
           prerelease: false
       - name: Upload Release Asset
@@ -43,7 +43,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} 
-          asset_name: cv_v${{ github.run_number }}.pdf
+          asset_name: cv_v1.${{ github.run_number }}.pdf
           asset_path: ${{ env.CV_PDF }}
           asset_content_type: application/pdf
       - name: Upload Release Asset (ru)
