@@ -47,5 +47,5 @@ Outside Tech, I am passionate about reading with a particular focus on history a
 
 <a href="mailto:feldlerche@yandex.ru"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a><!-- Gmail -->
 <a href="https://t.me/dm1trykrylov"><img src="https://img.shields.io/badge/Telegram-00B2FF?style=for-the-badge&logo=messenger&logoColor=white"/></a><!-- Telegram -->
-<a href="https://freecodecamp.org/dm1trykrylov">![FreeCodeCamp](https://img.shields.io/badge/Freecodecamp-%23123.svg?&style=for-the-badge&logo=freecodecamp&logoColor=green)</a><!-- freecodecamp.org -->
+<a href="https://www.freecodecamp.org/dekrylov">![FreeCodeCamp](https://img.shields.io/badge/Freecodecamp-%23123.svg?&style=for-the-badge&logo=freecodecamp&logoColor=green)</a><!-- freecodecamp.org -->
 
