@@ -50,8 +50,8 @@
 
 \usepackage{style}
 
-%debug page outer frames
-%\usepackage{showframe}
+\newdate{date}{15}{01}{2024}
+\date{\displaydate{date}}
 
 %----------------------------------------------------------------------------------------
 %	BEGIN DOCUMENT
@@ -114,6 +114,6 @@
 \import{./sections/}{05-certification.tex}
 
 \vfill
-\center{\footnotesize Last updated: \today}
+\center{\footnotesize Last updated: \displaydate{date}}
 
 \end{document}
