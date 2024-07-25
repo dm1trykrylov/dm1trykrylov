@@ -17,13 +17,13 @@ I also possess a foundational understanding of Economics and maintain a keen int
 - Software Engineering
 -->
 <h2> About Me⚡:</h2>
-I'm a Sophomore Student from Izhevsk, studying in Moscow.
+I'm a third year student from Izhevsk, studying in Moscow.
 Outside Tech, I am passionate about reading with a particular focus on history and I love to explore nature outdoors. 
 
 <!-- Colours: 008000 - ready, 23eb4000 - under maintenance -->
 
-<a href="https://github.com/dm1trykrylov/dm1trykrylov/releases/download/v1.15/cv_v1.15.pdf"><img src="https://img.shields.io/badge/Download%20CV(en)-%2523000011.svg?style=for-the-badge&color=%008000&logo=Adobe%20Acrobat%20Reader&logoColor=white"/></a>
-<a href="https://github.com/dm1trykrylov/dm1trykrylov/releases/download/v1.13/cv_v1.13_ru.pdf"><img src="https://img.shields.io/badge/Download%20CV(ru)-%2523000011.svg?style=for-the-badge&color=%23eb4000&logo=Adobe%20Acrobat%20Reader&logoColor=white"/></a>
+<a href="https://github.com/dm1trykrylov/dm1trykrylov/releases/download/v1.17/cv_v1.17.pdf"><img src="https://img.shields.io/badge/Download%20CV(en)-%2523000011.svg?style=for-the-badge&color=%008000&logo=Adobe%20Acrobat%20Reader&logoColor=white"/></a>
+<a href="https://github.com/dm1trykrylov/dm1trykrylov/releases/download/v1.17/cv_v1.17_ru.pdf"><img src="https://img.shields.io/badge/Download%20CV(ru)-%2523000011.svg?style=for-the-badge&color=%008000&logo=Adobe%20Acrobat%20Reader&logoColor=white"/></a>
 
 <!-- TODO
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
