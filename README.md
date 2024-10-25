@@ -3,9 +3,11 @@
 [![Visitor](https://visitor-badge.laobi.icu/badge?page_id=dm1trykrylov.dm1trykrylov)](https://github.com/dm1trykrylov) [![GitHub followers](https://img.shields.io/github/followers/dm1trykrylov.svg?style=social&label=Follow)](https://github.com/dm1trykrylov?tab=followers)
 
 I'm Dmitry Krylov!
-- <i> Currently </i> BS Applied Mathematics and CS student at MIPT, Moscow. 
 
-I also possess a foundational understanding of Economics and maintain a keen interest in delving deeper into the subject.
+I am currently pursuing a Bachelor's degree Applied Mathematics and CS at [MIPT](https://mipt.ru/en), Moscow. My interests lie in mathematical modelling and economics. I want to use mathematical models and methods to represent theories and analyze problems in economics.
+
+Outside maths and CS, I am passionate about reading with a particular focus on history.
+And to recharge my mind and body I do several sports. I go cycling through through scenic routes in summer and enjoy the thrill of speed and the beauty of winter landscapes while skiing in winter.
 
 <!--
 <h2>💻 I'm Currently workng on</h2>
@@ -16,9 +18,7 @@ I also possess a foundational understanding of Economics and maintain a keen int
 - System Design and Distributed Computing
 - Software Engineering
 -->
-<h2> About Me⚡:</h2>
-I'm a third year student from Izhevsk, studying in Moscow.
-Outside Tech, I am passionate about reading with a particular focus on history and I love to explore nature outdoors. 
+<!-- <h2> About Me⚡:</h2> -->
 
 <!-- Colours: 008000 - ready, 23eb4000 - under maintenance -->
 
