@@ -1,8 +1,7 @@
 name: Compile pdf
 on:
-  push:
-    branches:
-      - dev
+  workflow_dispatch:
+
 env:
   CV_TEX: cv.tex
   CV_PDF: cv.pdf
