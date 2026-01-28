@@ -11,10 +11,3 @@ And to recharge my mind and body I do several sports. I go cycling through throu
 <!-- Colours: 008000 - ready, 23eb4000 - under maintenance -->
 Check my CV in [English](https://github.com/dm1trykrylov/dm1trykrylov/releases/latest/download/cv.pdf) and in [Russian](https://github.com/dm1trykrylov/dm1trykrylov/releases/latest/download/cv_ru.pdf).
 
-<!-- 👨‍🎓 Education -->
-
-<h2>📬 How to reach me:</h2>
-
-<a href="mailto:krylov.de@phystech.edu"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a><!-- Gmail -->
-<a href="https://t.me/dm1trykrylov"><img src="https://img.shields.io/badge/Telegram-00B2FF?style=for-the-badge&logo=messenger&logoColor=white"/></a><!-- Telegram -->
-
