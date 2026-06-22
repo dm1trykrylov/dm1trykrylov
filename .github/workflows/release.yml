@@ -6,6 +6,8 @@ env:
   CV_PDF: cv.pdf
   CV_TEX_RU: cv_ru.tex
   CV_PDF_RU: cv_ru.pdf
+  CV_TEX_ECON_RU: cv_econ_ru.tex
+  CV_PDF_ECON_RU: cv_econ_ru.pdf
   VERSION: 2
 jobs:
   build_and_save:
@@ -19,13 +21,15 @@ jobs:
           root_file: |
             ${{ env.CV_TEX  }}
             ${{ env.CV_TEX_RU  }}
+            ${{ env.CV_TEX_ECON_RU  }}
       - name: Save artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: cv
           path: | 
             ${{ env.CV_PDF }}
             ${{ env.CV_PDF_RU }}
+            ${{ env.CV_PDF__ECON_RU }}
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -55,4 +59,14 @@ jobs:
           upload_url: ${{ steps.create_release.outputs.upload_url }} 
           asset_name: cv_ru.pdf
           asset_path: ${{ env.CV_PDF_RU }}
+          asset_content_type: application/pdf
+      - name: Upload Release Asset (econ_ru)
+        id: upload-release-asset-econ_ru
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }} 
+          asset_name: cv_econ_ru.pdf
+          asset_path: ${{ env.CV_PDF_ECON_RU }}
           asset_content_type: application/pdf

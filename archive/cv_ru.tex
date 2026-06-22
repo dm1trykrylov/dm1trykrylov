@@ -1,0 +1,55 @@
+%-------------------------
+% Resume in Latex
+% Template Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{style}
+
+\DTMsavedate{update}{2025-04-24}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\import{./sections/base/}{00-title_ru.tex}
+
+
+%-----------EDUCATION-----------
+\import{./sections/base/}{02-education_ru.tex}
+
+
+%-----------EXPERIENCE-----------
+\import{./sections/base/}{04-experience_ru.tex}
+
+%-----------COMPETITIONS---------
+\import{./sections/base/}{03-competitions_ru.tex}
+
+%-----------PROJECTS-----------
+\import{./sections/base/}{05-projects_ru.tex}
+
+
+%-----------PROGRAMMING SKILLS-----------
+\import{./sections/base/}{06-skills_ru.tex}
+
+
+%-------------------------------------------
+
+\vfill
+\center{\footnotesize Обновлено: \DTMusedate{update}}
+
+\end{document}
+
+
+
