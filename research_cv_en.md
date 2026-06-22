@@ -13,7 +13,7 @@
 
 ## About me
 
-Final-year BSc student in Applied Mathematics and Computer Science at MIPT, graduating in 2026. My academic and practical interests focus on applying mathematical modelling, statistical methods, and data analysis to economic problems, particularly in forecasting and empirical analysis. I am interested in building and evaluating quantitative models, working with real-world data, and using computational tools to test economic hypotheses and study causal relationships. I am open to different areas of economics and motivated to work in research-oriented analytical environments.
+I graduated from MIPT with bachelor's degree in Applied Mathematics and Computer Science. My academic and practical interests focus on applying mathematical modelling, statistical methods, and data analysis to economic problems, particularly in forecasting and empirical analysis. I am interested in building and evaluating quantitative models, working with real-world data, and using computational tools to test economic hypotheses and study causal relationships. I am open to different areas of economics and motivated to work in research-oriented analytical environments.
 
 ## Experience
 
@@ -29,15 +29,15 @@ Final-year BSc student in Applied Mathematics and Computer Science at MIPT, grad
   : **Institute of Information Transmission Problems (IITP RAS)**
   : **Feb 2024 - Jul 2024**
 
-- Joined collaborative project on automatic white balance correction on digital images.
-- Implemented novel colour space transform algorithm based on physically plausible colour distribution.
+- Joined collaborative project aimed at improving colour space transform on digital images.
+- Implemented novel colour space transform algorithm based on physically plausible illumination distribution.
 - Designed an evaluation pipeline and measured performance relative to baseline method.
 - Presented results at the annual university conference at MIPT.
 
 ## Education
 
 **BSc in Applied Mathematics and Computer Science**
-  : **Sep 2022 - Jul 2026**
+  : **2022 - 2026**
 
 Moscow Institute of Physics and Technology (MIPT), GPA 4.8 / 5
   : Moscow, Russia
@@ -48,7 +48,7 @@ Moscow Institute of Physics and Technology (MIPT), GPA 4.8 / 5
 <span class="iconify" data-icon="vscode-icons:file-type-python"></span> Python,
 <span class="iconify" data-icon="vscode-icons:file-type-c"></span> C/C++,
 <span class="iconify" data-icon="vscode-icons:file-type-pgsql"></span> SQL,
-<span class="iconify" data-icon="vscode-icons:file-type-r"></span> R
+<span class="iconify" data-icon="vscode-icons:file-type-go"></span> Go
 
 **Tools and Frameworks:** Git, Linux, Docker, Scientific Python (NumPy, scikit-learn), $\LaTeX$
 
@@ -57,15 +57,13 @@ Moscow Institute of Physics and Technology (MIPT), GPA 4.8 / 5
 ## Projects
 
 **Optimal Stopping for a Conditioned Random Walk**
-  : **Sep 2025 - Nov 2025**
+  : **2025 - 2026**
 
-This project studies analytical and machine learning approaches to the optimal stopping problem for a discrete random walk conditioned to remain between linear boundaries, motivated by asset price dynamics within a price corridor.
+This is my bachelor's thesis. It studies the optimal stopping problem for a 1-dimensional random walk conditioned to remain between the boundaries linearly dependent on the step number. The problem is motivated by asset price dynamics within a price corridor.
 
-It was a collaborative project. My contribution:
+I devised analytical formulation and solution of the optimal stopping problem, defined the value function to characterize the state of the random walk and proved some theorems regarding the asymptotic properties of the value function.
 
-- Devised analytical formulation and solution of the optimal stopping problem
-- Conducted theoretical analysis and proofs
-- Designed experiments for performance comparison of analytical and ML-based methods
+I presented the results on the 68th Russian National Scientific MIPT Conference
 
 
 ## Awards and Honors
