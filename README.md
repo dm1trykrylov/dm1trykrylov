@@ -10,5 +10,5 @@ And to recharge my mind and body I do several sports. I go cycling through throu
 -->
 
 <!-- Colours: 008000 - ready, 23eb4000 - under maintenance -->
-Check my CV in [English](https://github.com/dm1trykrylov/dm1trykrylov/releases/latest/download/cv.pdf) and in [Russian](https://github.com/dm1trykrylov/dm1trykrylov/releases/latest/download/cv_ru.pdf).
+Check my CV in [English](https://github.com/dm1trykrylov/dm1trykrylov/releases/latest/download/krylov_cv_en.pdf) and in [Russian](https://github.com/dm1trykrylov/dm1trykrylov/releases/latest/download/krylov_cv_ru.pdf).
 
