@@ -1,14 +1,11 @@
-<h2>Hi there! 👋</h2>
+## Hi there! 👋
 
-I'm Dmitry Krylov!
+I'm Dmitry Krylov.
 
-I received my Bachelor's degree in Applied Mathematics and CS from [MIPT](https://mipt.ru/en), Moscow. My interests lie in mathematical modelling and economics. I aim to use mathematical models and methods to represent theories and analyze problems in economics.
+I'm currently pursuing an MA in Economics at the New Economic School (NES). 
+Previously, I earned a BSc in Applied Mathematics and Physics from the Moscow Institute of Physics and Technology (MIPT).
 
-<!--
-Outside maths and CS, I am passionate about reading with a particular focus on history.
-And to recharge my mind and body I do several sports. I go cycling through through scenic routes in summer and enjoy the thrill of speed and the beauty of winter landscapes while skiing in winter.
--->
+My interests include mathematical modelling, quantitative methods, and their application to economic and other real-world problems. 
+I am particularly interested in developing and studying mathematical models and using them to analyse and understand complex phenomena.
 
-<!-- Colours: 008000 - ready, 23eb4000 - under maintenance -->
-Check my CV in [English](https://github.com/dm1trykrylov/dm1trykrylov/releases/latest/download/cv.pdf) and in [Russian](https://github.com/dm1trykrylov/dm1trykrylov/releases/latest/download/cv_ru.pdf).
-
+You can find my CVs in English and Russian on the Releases page.
